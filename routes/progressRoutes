@@ -1,0 +1,12 @@
+const express = require('express');
+const progressController = require('../controllers/progressController');
+
+const router = express.Router();
+
+router.get('/', progressController.progress_index);
+router.post('/', progressController.progress_create_post);
+router.get('/create', progressController.progress_create_get);
+router.get('/:id', progressController.progress_details);
+router.delete('/:id', progressController.progress_delete);
+
+module.exports = router;
