@@ -48,7 +48,6 @@ const progress_delete = (req, res) => {
     });
 }
 
-
 // exports
 module.exports = {
   progress_index, 

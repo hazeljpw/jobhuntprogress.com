@@ -1,26 +1,26 @@
 <html lang="en">
-  <%- include('../partials/head.ejs')%>
+    <%- include('../partials/head.ejs')%>
 <body>
 
-  <%- include('../partials/nav.ejs')%>
+    <%- include('../partials/nav.ejs')%>
 
-  <div class="progress content">
-    <h2>All progress</h2>
+    <div class="progress content">
+        <h2>All progress</h2>
 
-    <% if (progress.length > 0) { %>
-      <% progress.forEach(progress => { %>
-        <a class="single" href="/progress/<%= progress._id %>">
-          <h3><%= progress.position %></h3>
-          <p><%= progress.company %></p>
-          <p><%= progress.status %></p>
-        </a>
-      <% }) %>
-    <% } else { %>
-      <p>There are no progress to display...</p>
-    <% } %>
-  </div>
+        <% if (progress.length > 0) { %>
+            <% progress.forEach(progress => { %>
+                <a class="single" href="/progress/<%= progress._id %>">
+                  <h3><%= progress.position %></h3>
+                  <p><%= progress.company %></p>
+                  <p><%= progress.status %></p>
+                </a>
+            <% }) %>
+        <% } else { %>
+            <p>There are no progress to display...</p>
+        <% } %>
+    </div>
 
-  <%- include('../partials/footer.ejs')%>
+    <%- include('../partials/footer.ejs')%>
 
 </body>
 </html>

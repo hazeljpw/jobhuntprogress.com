@@ -1,35 +1,33 @@
 <html lang="en">
-  <%- include('../partials/head.ejs')%>
+    <%- include('../partials/head.ejs')%>
 <body>
 
-  <%- include('../partials/nav.ejs')%>
+     <%- include('../partials/nav.ejs')%>
 
-  <div class="create-progress content">
-    <form action="/progress" method="POST">
+    <div class="create-progress content">
+        <form action="/progress" method="POST">
+            <!-- Job title --> 
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" required>
 
-      <!-- Job title --> 
-      <label for="position">Position:</label>
-      <input type="text" id="position" name="position" required>
+            <!-- Company --> 
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required>
 
-      <!-- Company --> 
-      <label for="company">Company:</label>
-      <input type="text" id="company" name="company" required>
+            <!-- Status --> 
+            <!-- MAKE THIS SOMETHING THAT WILL SHOW OPTIONS -->
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" required>
 
-      <!-- Status --> 
-      <!-- MAKE THIS SOMETHING THAT WILL SHOW OPTIONS -->
-      <label for="status">Status:</label>
-      <input type="text" id="status" name="status" required>
+            <!-- Details --> 
+            <label for="body">Details:</label>
+            <textarea id="body" name="body" required></textarea>
 
-      <!-- Details --> 
-      <label for="body">Details:</label>
-      <textarea id="body" name="body" required></textarea>
+            <button>Post</button>
+        </form>
+    </div>
 
-      <button>Post</button>
-    </form>
-  </div>
-
-  <%- include('../partials/footer.ejs')%>
+    <%- include('../partials/footer.ejs')%>
   
 </body>
-
 </html>

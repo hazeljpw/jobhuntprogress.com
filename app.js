@@ -1,3 +1,4 @@
+// imports
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
@@ -6,7 +7,7 @@ const progressRoutes = require('./routes/progressRoutes');
 // express app
 const app = express();
 
-// connection to mongodb
+// mongodb atlas
 const dbURI = 'mongodb+srv://dbh_tester_jane:BIqOj65OuqQUyWlF@jhp.kt89c3h.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(3000))
