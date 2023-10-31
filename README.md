@@ -21,8 +21,7 @@ When adding a progress, you will need to go to "Create" page then type the neces
 
 After clicking “Post” it will direct you back to "Home" page and you will see the overview of the recent progress you added. 
 
-![image](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/7bf77aed-30df-43ac-83f4-079af588f221)
-
+![Home page with the new progress added](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/ada68f85-8e56-491b-9706-ea8b4ed69eb9)
 
 Click the progress and it will appear with the description you added. From this page, you can also delete the progress.
 
