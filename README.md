@@ -5,19 +5,19 @@ The following images are screenshots from localhost:3000 and MongoDB ATLAS.
 
 The "Home" page contains the progress that you already created. If you have not created any, it wil state that “There are no progress to display …”
 
-![image](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/41aa7bf0-dfa4-4c6b-a772-b11dffaee7bd)
+![Home page without progress](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/4c4b31d8-9ceb-4386-95d9-f9a3ff40dd1d)
 
 This is the "About Us" page:
 
-![image](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/1ac030ef-5034-4c4c-9cbb-fe44cd531059)
+![About Us page](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/333c257e-3b31-4f4c-a2d3-645ac2542f2b)
 
 This is the "Create" page:
 
-![image](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/a0839bb2-c8c9-45a2-b19b-cb2ef610a982)
+![Create page](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/b4f3adb2-4d74-4467-ad0e-38f96bc68e68)
 
 When adding a progress, you will need to go to "Create" page then type the necessary information:
 
-![image](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/31ddfdeb-79c5-46a4-8956-3d0123be4026)
+![Creating progress](https://github.com/hazeljpw/jobhuntprogress.com/assets/133815478/8603d6a0-f20b-4243-9691-37b6ee885aeb)
 
 After clicking “Post” it will direct you back to "Home" page and you will see the overview of the recent progress you added. 
 
