@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 // imports
 const express = require('express');
 const morgan = require('morgan');
@@ -8,7 +10,7 @@ const progressRoutes = require('./routes/progressRoutes');
 const app = express();
 
 // mongodb atlas
-const dbURI = 'mongodb+srv://dbh_tester_jane:BIqOj65OuqQUyWlF@jhp.kt89c3h.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = process.env.DBURI;
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(3000))
   .catch((err) => console.log(err));
