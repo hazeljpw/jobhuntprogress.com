@@ -15,6 +15,11 @@ const progressSchema = new Schema({
         type: String,
         required: true,
     },
+    date: {
+        type: Date,
+        timestamps: false,
+        required: true
+    },
     body: {
         type: String,
         required: true

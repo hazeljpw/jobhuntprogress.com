@@ -3,21 +3,18 @@ body{
   margin: 20px auto;
   padding: 0 20px;
   font-family: 'Noto Serif', serif;
-  max-width: 1000px;
-  background-image: url('images/background.jpg');
-  background-position: center ;
-  background-size:100%;
-  background-repeat:no-repeat;
-}
+  max-width: 900px;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+ }
+
 p,h1, h2, h3, a, ul{
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: #222;
-}
-
-p.about {
-  max-width:65%;
+  color:  black;
 }
 
 /* nav & footer */
@@ -25,8 +22,9 @@ nav{
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   text-transform: uppercase;
+  margin-top: 5%;
 }
 nav ul{
   display: flex;
@@ -39,7 +37,6 @@ nav li{
 }
 nav h1{
   font-size: 3em;
-  color:  #971919;
 }
 nav p, nav a{
   font-weight: 300;
@@ -70,15 +67,14 @@ h3{
   display: block;
   margin: 40px 0;
   padding-left: 30px;
-  border-left: 6px solid #971919;
-}
-.progress a:hover h3{
-  color: #971919;
+  border-left: 6px solid #000000bb;
+  margin-top: 5%;
 }
 
 /* details */
 .details{
   position: relative;
+
 }
 .delete{
   position:absolute;
@@ -86,11 +82,26 @@ h3{
   right: 70%;
   border-radius: 50%;
   padding: 8px;
+  
 }
 
-/* crete */
+/* create */
 .create-progress form{
-  max-width: 400px;
+  max-width: 500px;
+  padding: 10%;
+
+  /* To center the form */
+  margin: auto;
+  width: 50%;
+
+  /* Glassmorphism background */
+  background-color: tran;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 20px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .create-progress input,
 .create-progress textarea{
@@ -109,10 +120,10 @@ textarea{
 }
 .create-progress button{
   margin-top: 20px;
-  background: #971919;
-  color: white;
+  background: rgb(127, 212, 236);
   padding: 6px;
-  border: 0;
+  border: 1;
   font-size: 1em;
+  font-weight:bold;
   cursor: pointer;
 }
